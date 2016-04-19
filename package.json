@@ -1,0 +1,15 @@
+{
+  "name": "sinfinite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/sinfinite.js",
+  "scripts": {
+    "start": "http-server ./src",
+    "deploy": "git push -f origin master:gh-pages"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

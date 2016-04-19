@@ -1,0 +1,22 @@
+/* Minimal CSS Reset - https://gist.github.com/felquis/1278d5f62dcc5f606bbb */html{box-sizing:border-box}body{font-size:16px}*,:before,:after{box-sizing:inherit}ol,ul{padding:0;list-style-type:none}body,h1,h2,h3,h4,h5,h6,p,ol,li,ul,dl,dd,blockquote,figure,hr,pre{margin:0;line-height:1em}hr{border-style:none;background:#19cade;height:.125em}
+
+html, body {
+  height: 100%;
+}
+
+.scroll-container {
+  width: 50%;
+  float: left;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.big-content {
+  height: 400px;
+}
+
+
+#container {
+  height: 600px
+}

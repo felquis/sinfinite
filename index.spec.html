@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sinfinite</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="public/css/index.css">
+
+	<link rel="stylesheet" href="bower_components/jasmine-core/lib/jasmine-core/jasmine.css">
+</head>
+<body>
+  <div id="container">
+    <div class="scroll-container" data-infinite="primeiro">
+      <div class="big-content">Container 1</div>
+      <div class="big-content">Container 2</div>
+      <div class="big-content">Container 3</div>
+      <div class="big-content">Container 4</div>
+    </div>
+    <div class="scroll-container" data-infinite="terceiro">
+      <div class="big-content">
+        <button data-handler="handler1">Handler 1</button>
+        <button data-handler="handler2">Handler 2</button>
+        <button data-handler="handler3">Handler 3</button>
+      </div>
+      <div class="big-content">Container 4</div>
+      <div class="big-content">Container 5</div>
+      <div class="big-content">Container 6</div>
+    </div>
+  </div>
+
+	<script src="bower_components/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+	<script src="bower_components/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+	<script src="bower_components/jasmine-core/lib/jasmine-core/boot.js"></script>
+	<script src="bower_components/jquery/jquery.js"></script>
+
+  <script src="public/sinfinite.js"></script>
+	<script src="public/js/index.js"></script>
+	<script src="spec/sinfinite.spec.js"></script>
+</body>
+</html>

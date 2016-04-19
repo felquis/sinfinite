@@ -1,0 +1,26 @@
+{
+  "name": "Infiniti",
+  "description": "JavaScript Logic for Infinite Scroll",
+  "main": "public/sinfinite.js",
+  "authors": [
+    "Felquis Gimenes <@felquis>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "infinite",
+    "scroll",
+    "vanillajs"
+  ],
+  "homepage": "https://github.com/felquis/sinfinite",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-core": "jasmine#^2.4.1",
+    "jquery": "2.0"
+  }
+}
