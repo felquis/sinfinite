@@ -2,10 +2,12 @@
 
 html, body {
   height: 100%;
+  background: silver;
 }
 
 .scroll-container {
-  width: 50%;
+  width: 35%;
+  background: #fff;
   float: left;
   overflow: scroll;
   overflow-x: hidden;
